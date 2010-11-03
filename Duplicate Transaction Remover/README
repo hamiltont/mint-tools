@@ -1,2 +1,11 @@
 After exporting transactions from Mint.com, this software
 will attempt to detect and automatically remove them
+
+
+Basic usage(currently) is to export apps from Mint, and then to 
+place them in some standard directory (right now this is hard
+coded to /Users/hamiltont/transactions.csv). 
+
+Run the app, and the CSV of transactions will be imported, duplicates
+removed, and the file resaved. Any possible dupes that the software 
+is not 100% on will be printed for manual removal later. 
